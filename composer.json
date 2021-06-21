@@ -1,0 +1,22 @@
+{
+  "name": "7thstreetweb/intacct-sdk-php-ap-bill-list",
+  "description": "Bill List Functionality",
+  "type": "project",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "7th Street Web Company",
+      "homepage": "https://7thstreetweb.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "intacct/intacct-sdk-php": "^2.1.1",
+    "7thstreetweb/intacct-sdk-php-common": "1.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Intacct\\VendorList\\": "src/BillList/"
+    }
+  }
+}
