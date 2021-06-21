@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Intacct\\VendorList\\": "src/BillList/"
+      "Intacct\\BillList\\": "src/BillList/"
     }
   }
 }
